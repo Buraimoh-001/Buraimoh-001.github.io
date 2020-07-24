@@ -1,0 +1,74 @@
+/*nav bar*/
+.navbar-icon{
+   width: 5.5rem; 
+   height:5.5rem;
+   background-color: var(--white-color);
+}
+.open-navbar-icon{
+    position: fixed;
+    top: 3.5rem;
+    left: 3.5rem;
+    z-index: 200;
+    border-radius: 50%;
+    cursor: pointer;
+  flex-direction: column;  
+}
+.navbar-icon .line{
+    height: .2rem;
+    width: 3.5rem;
+    background-color: var(--light-grey-color);
+
+}
+.open-navbar-icon .line{
+   margin: .3rem; 
+}
+
+.navbar-wrapper{
+  display: none;  
+}
+/*nav barr*/
+
+
+
+
+       <!--navbarr-->
+       <div class="open-navbar-icon navbar-icon center">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="navbar-wrapper">
+        <nav class="navbar">
+
+          <div class="close-navbar-icon navbar-icon center">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+             </div>
+             <div class="nav-list"></div>
+             <a href="#" class ="nav-link">Home</a>
+             <a href="#" class ="nav-link">About-Us</a>
+             <a href="#" class ="nav-link">Offer</a>
+             <a href="#" class ="nav-link">About Us</a>
+             </div>
+        </nav>
+        </div>
+         <!--end of navbar-->
+
+<a href="#" class = "footer-link">contact</a>
+
+
+<button type="button" class = "footer-link">contact<select>
+
+<a href="#">contact</a>
+
+</select>
+
+</button>
+     
+
+
+
+
+
+
+
